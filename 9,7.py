@@ -12,7 +12,6 @@ capitals_dict = {
     'Florida': 'Tallahassee',
     'Georgia': 'Atlanta',
 }
-
 data = list(capitals_dict.items())
 ran_data = data[random.randint(0, len(data) - 1)]
 x = ran_data[0]
@@ -36,6 +35,5 @@ while True:
     
     print('Попробуйте еще раз')
     e = e + 1
-        
-    
 
+print(f'test')
